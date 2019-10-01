@@ -17,4 +17,9 @@ while my_variable < 20:
 $ git checkout -b “bug_fix”
 $ git push origin bug_fix
 $ git status
+$ git status
+$ git add *
+$ git commit -m “bug is fixed”
+$ git push --set-upstream origin bug_fix
+$ git log --online
 
