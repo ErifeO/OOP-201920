@@ -22,4 +22,9 @@ $ git add *
 $ git commit -m “bug is fixed”
 $ git push --set-upstream origin bug_fix
 $ git log --online
+$ git checkout master
+$ git branch
+$ git merge bug_fix
+$ git branch -d bug_fix
+$ git push origin --delete bug_fix
 
