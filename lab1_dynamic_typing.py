@@ -14,4 +14,6 @@ while my_variable < 20:
                 my_vairable = (my_variable + 20)
                 print('new')
 
+$ git checkout -b “bug_fix”
+$ git push origin bug_fix
 
